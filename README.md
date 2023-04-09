@@ -1,13 +1,14 @@
-# cublasGemmEx比較
+# Throughput comparison of cublasGemmEx
 
-## ビルド
+## Build
 ```
 git clone https://github.com/enp1s0/gemmex-throughput
-git submoduleupdate --init
+cd gemmex-throughput
+git submodule update --init
 make
 ```
 
-## 実行
+## Run
 ```
 # Usage: ./gemmex.test [min_log_N] [max_log_N] [mode list: FP32 FP16TC FP16TC_FP16DATA]
 
